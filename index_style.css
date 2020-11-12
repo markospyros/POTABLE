@@ -19,14 +19,26 @@ body{
   text-align: center;
   font-size: 20px;
   text-decoration: none;
-  color: rgb(0, 145, 199);
   float: right;
   padding:60px;
 }
 
 .header a:hover{
-  background-color: rgb(0, 145, 199);
+	background-color: rgb(0, 145, 199);
   color: black;
+}
+
+.home {
+	background-color: rgb(0, 145, 199);
+	color: white;
+}
+
+.our_product{
+	color: rgb(0, 145, 199);
+}
+
+.contact{
+	color: rgb(0, 145, 199);
 }
 
 .menu{
@@ -147,6 +159,11 @@ li a{
 @media only screen and (max-width: 934px){
 	.water_quote{
 		font-size: 20px;
+		margin-top: 250px;
+	}
+
+	body{
+		background-image: url("bilder/bilde1.jpg");
 	}
 }
 
@@ -174,6 +191,9 @@ li a{
 	#potable_logo{
 		margin-left: 270px;
 	}
+	body{
+		background-image: url("bilder/bilde1.jpg");
+	}
 }
 
 @media only screen and (max-width: 586px){
@@ -181,7 +201,8 @@ li a{
 		margin-left: 220px;
 	}
 	.water_quote{
-		font-size: 10px;
+		font-size: 20px;
+		margin-top: 200px;
 	}
 }
 
@@ -190,7 +211,13 @@ li a{
 		margin-left: 190px;
 	}
 	.water_quote{
-		font-size: 10px;
+		font-size: 11px;
+		margin-top: 100px;
+	}
+
+
+	body{
+		background-image: url("bilder/bilde1.jpg");
 	}
 }
 
@@ -199,7 +226,8 @@ li a{
 		margin-left: 160px;
 	}
 	.water_quote{
-		font-size: 10px;
+		font-size: 11px;
+		margin-top: 100px;
 	}
 }
 
