@@ -20,7 +20,6 @@ body{
   text-align: center;
   font-size: 20px;
   text-decoration: none;
-  color: rgb(0, 145, 199);
   float: right;
   padding:60px;
 }
@@ -34,6 +33,19 @@ body{
   width:150px;
   padding:20px;
   margin-left: 50px;
+}
+
+.home {
+	color: rgb(0, 145, 199);
+}
+
+.our_product{
+	background-color: rgb(0, 145, 199);
+	color: white;
+}
+
+.contact{
+	color: rgb(0, 145, 199);
 }
 
 .menu{
@@ -238,6 +250,10 @@ li a{
 	}
 
 	.main {
+	}
+
+	.potable_straw_tekst{
+		font-size: 10px;
 	}
 
 }
