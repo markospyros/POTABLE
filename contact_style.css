@@ -19,7 +19,6 @@ body{
   text-align: center;
   font-size: 20px;
   text-decoration: none;
-  color: rgb(0, 145, 199);
   float: right;
   padding:60px;
 }
@@ -33,6 +32,19 @@ body{
   width:150px;
   padding:20px;
   margin-left: 50px;
+}
+
+.home {
+	color: rgb(0, 145, 199);
+}
+
+.our_product{
+	color: rgb(0, 145, 199);
+}
+
+.contact{
+	background-color: rgb(0, 145, 199);
+	color: white;
 }
 
 .main{
@@ -179,6 +191,12 @@ p{
   .columns {
     display: inline-block;
   }
+
+	.column1{
+		padding-bottom: 200px;
+		margin: auto;
+	}
+
 }
 
 @media only screen and (max-width: 827px){
@@ -260,6 +278,10 @@ p{
 @media only screen and (max-width: 320px){
 	#potable_logo{
 		margin-left: 115px;
+	}
+
+	.column1{
+		padding-bottom: 200px;
 	}
 
 
