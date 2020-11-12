@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POTABLE</title>
+    <link rel="stylesheet" href="index_style.css">
+  </head>
+  <body>
+    <div id="menu_nav">
+      <strong><p id="x-button" onclick="closeBar()" alt="Close the bar">X</p></strong>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="our_product.html" class="our_product">Our Product</a></li>
+        <li><a href="contact.html" class="contact">Contact</a></li>
+  </ul>
+  </div>
+    <div class="header">
+      <div class="menu" onclick="openBar()" alt="menu button">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <img src="bilder/potable_logo.png" id="potable_logo" alt="POTABLE logo">
+      <strong><a href="contact.html" class="contact">Contact</a></strong>
+      <strong><a href="our_product.html" class="our_product">Our Product</a></strong>
+      <strong><a href="index.html" class="home">Home</a></strong>
+    </div>
+    <div class="main">
+      <img src="bilder/bilde1.jpg" alt="Clean Water" class="bilde1" width="100%">
+      <div class="water_quote">
+      <h1>Water is life, and clean<br>
+        water means health.</h1>
+      <h2>"Audrey Hepburn"</h2>
+      </div>
+    </div>
+    <div class="footer">© Copyright 2020 INOVA · Designed By Marko Spyros & Mostafa Hadad · All Rights Reserved</div>
+  </body>
+  <script type="text/javascript">
+
+  function openBar() {
+    document.getElementById("menu_nav").style.display = "block";
+  }
+
+  function closeBar() {
+    document.getElementById("menu_nav").style.display = "none";
+  }
+
+  </script>
+</html>

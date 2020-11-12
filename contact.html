@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POTABLE</title>
+    <link rel="stylesheet" href="contact_style.css">
+  </head>
+  <body>
+    <div id="menu_nav">
+      <strong><p id="x-button" onclick="closeBar()" alt="Close the bar">X</p></strong>
+      <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="our_product.html" class="our_product">Our Product</a></li>
+    <li><a href="contact.html" class="contact">Contact</a></li>
+  </ul>
+  </div>
+  <div class="header" width="100%">
+    <div class="menu" onclick="openBar()" alt="menu button">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+      <img src="bilder/potable_logo.png" id="potable_logo" alt="POTABLE logo">
+      <strong><a href="contact.html" class="contact">Contact</a></strong>
+      <strong><a href="our_product.html" class="our_product">Our Product</a></strong>
+      <strong><a href="index.html" class="home">Home</a></strong>
+    </div>
+    <div class="main">
+    </div>
+    <div class="columns">
+      <div class="column1">
+        <h2 id="headline"> Please feel free to contact us for any inquiries and purchases </h2>
+        <p>Email: post@potable.com</p>
+        <p>Telephone: 123 45 678</p>
+          <br><br>
+      </div>
+      <div class="column2">
+          <h2>Do you want to see the POTABLE-straw in action? Come and visit us!</h2>
+          <iframe src="https://maps.google.com/maps?q=athens&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" alt="map"></iframe>
+          <!-- Snippet code from google maps, (share, embed a map) -->
+      </div>
+      </div>
+    <div class="footer">© Copyright 2020 INOVA · Designed By Marko Spyros & Mostafa Hadad · All Rights Reserved</div>
+  </body>
+  <script type="text/javascript">
+
+  function openBar() {
+    document.getElementById("menu_nav").style.display = "block";
+  }
+
+  function closeBar() {
+    document.getElementById("menu_nav").style.display = "none";
+  }
+
+  </script>
+</html>
