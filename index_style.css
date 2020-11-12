@@ -210,11 +210,11 @@ li a{
 	#potable_logo{
 		margin-left: 190px;
 	}
-	.water_quote{
-		font-size: 11px;
-		margin-top: 100px;
-	}
 
+	.water_quote{
+		font-size: 20px;
+		margin-top: 200px;
+	}
 
 	body{
 		background-image: url("bilder/bilde1.jpg");
@@ -225,26 +225,17 @@ li a{
 	#potable_logo{
 		margin-left: 160px;
 	}
-	.water_quote{
-		font-size: 11px;
-		margin-top: 100px;
-	}
 }
 
 @media only screen and (max-width: 375px){
 	#potable_logo{
 		margin-left: 145px;
 	}
-	.water_quote{
-		font-size: 10px;
-	}
+
 }
 
 @media only screen and (max-width: 320px){
 	#potable_logo{
 		margin-left: 115px;
-	}
-	.water_quote{
-		font-size: 7px;
 	}
 }
